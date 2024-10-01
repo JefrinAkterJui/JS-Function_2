@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main{
+    width: 400px;
+    height: 60px;
+    background: #fff;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.main input{
+    width: 313px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    padding-left: 15px;
+}
+.main button{
+    width: 66px;
+    height: 61px;
+    border: none;
+    outline: none;
+    background: red;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+}
